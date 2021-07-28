@@ -33,15 +33,15 @@ $_SERVER["HTTPS"] = "on";
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', "bitrends_new");
+define('DB_NAME', "eduittrends_db");
 
 
 /** MySQL database username */
-define('DB_USER', "bitrends_new");
+define('DB_USER', "eduittrends_user");
 
 
 /** MySQL database password */
-define('DB_PASSWORD', "cqoJ8sTcEO");
+define('DB_PASSWORD', "1bSVUeTlpc");
 
 
 /** MySQL hostname */
