@@ -1,0 +1,1 @@
+[02-Jul-2021 16:31:25 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'username_here'@'localhost' (using password: YES) in /home/bitrends/web/bitrends.pl/public_html/wp-includes/wp-db.php on line 1626

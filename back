@@ -1,0 +1,2203 @@
+array(18) {
+  [0]=>
+  array(3) {
+    ["file"]=>
+    string(133) "/home/bitrends/web/bitrends.pl/public_html/wp-content/plugins/js_composer/include/classes/shortcodes/core/class-wpbakeryshortcode.php"
+    ["line"]=>
+    int(271)
+    ["function"]=>
+    string(7) "require"
+  }
+  [1]=>
+  array(7) {
+    ["file"]=>
+    string(111) "/home/bitrends/web/bitrends.pl/public_html/wp-content/plugins/js_composer/include/classes/shortcodes/vc-row.php"
+    ["line"]=>
+    int(40)
+    ["function"]=>
+    string(12) "loadTemplate"
+    ["class"]=>
+    string(17) "WPBakeryShortCode"
+    ["object"]=>
+    object(WPBakeryShortCode_Vc_Row)#5392 (11) {
+      ["predefined_atts":protected]=>
+      array(1) {
+        ["el_class"]=>
+        string(0) ""
+      }
+      ["nonDraggableClass"]=>
+      string(20) "vc-non-draggable-row"
+      ["shortcode":protected]=>
+      string(6) "vc_row"
+      ["html_template":protected]=>
+      string(100) "/home/bitrends/web/bitrends.pl/public_html/wp-content/themes/lgx-event-point/vc_templates/vc_row.php"
+      ["atts":protected]=>
+      array(1) {
+        ["css"]=>
+        string(92) ".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"
+      }
+      ["settings":protected]=>
+      array(10) {
+        ["name"]=>
+        string(3) "Row"
+        ["is_container"]=>
+        bool(true)
+        ["icon"]=>
+        string(12) "icon-wpb-row"
+        ["show_settings_on_create"]=>
+        bool(false)
+        ["category"]=>
+        string(7) "Treść"
+        ["class"]=>
+        string(24) "vc_main-sortable-element"
+        ["description"]=>
+        string(37) "Place content elements inside the row"
+        ["params"]=>
+        array(20) {
+          [0]=>
+          array(5) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(11) "Row stretch"
+            ["param_name"]=>
+            string(10) "full_width"
+            ["value"]=>
+            array(4) {
+              ["Default"]=>
+              string(0) ""
+              ["Stretch row"]=>
+              string(11) "stretch_row"
+              ["Stretch row and content"]=>
+              string(19) "stretch_row_content"
+              ["Stretch row and content (no paddings)"]=>
+              string(29) "stretch_row_content_no_spaces"
+            }
+            ["description"]=>
+            string(152) "Select stretching options for row and content (Note: stretched may not work properly if parent container has &quot;overflow: hidden&quot; CSS property)."
+          }
+          [1]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(11) "Columns gap"
+            ["param_name"]=>
+            string(3) "gap"
+            ["value"]=>
+            array(12) {
+              ["0px"]=>
+              string(1) "0"
+              ["1px"]=>
+              string(1) "1"
+              ["2px"]=>
+              string(1) "2"
+              ["3px"]=>
+              string(1) "3"
+              ["4px"]=>
+              string(1) "4"
+              ["5px"]=>
+              string(1) "5"
+              ["10px"]=>
+              string(2) "10"
+              ["15px"]=>
+              string(2) "15"
+              ["20px"]=>
+              string(2) "20"
+              ["25px"]=>
+              string(2) "25"
+              ["30px"]=>
+              string(2) "30"
+              ["35px"]=>
+              string(2) "35"
+            }
+            ["std"]=>
+            string(1) "0"
+            ["description"]=>
+            string(34) "Select gap between columns in row."
+          }
+          [2]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(16) "Full height row?"
+            ["param_name"]=>
+            string(11) "full_height"
+            ["description"]=>
+            string(42) "If checked row will be set to full height."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [3]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(16) "Columns position"
+            ["param_name"]=>
+            string(17) "columns_placement"
+            ["value"]=>
+            array(4) {
+              ["Middle"]=>
+              string(6) "middle"
+              ["Top"]=>
+              string(3) "top"
+              ["Bottom"]=>
+              string(6) "bottom"
+              ["Stretch"]=>
+              string(7) "stretch"
+            }
+            ["description"]=>
+            string(35) "Select columns position within row."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(11) "full_height"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [4]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(12) "Equal height"
+            ["param_name"]=>
+            string(12) "equal_height"
+            ["description"]=>
+            string(47) "If checked columns will be set to equal height."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [5]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(22) "Reverse columns in RTL"
+            ["param_name"]=>
+            string(11) "rtl_reverse"
+            ["description"]=>
+            string(43) "If checked columns will be reversed in RTL."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [6]=>
+          array(5) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(16) "Content position"
+            ["param_name"]=>
+            string(17) "content_placement"
+            ["value"]=>
+            array(4) {
+              ["Default"]=>
+              string(0) ""
+              ["Top"]=>
+              string(3) "top"
+              ["Middle"]=>
+              string(6) "middle"
+              ["Bottom"]=>
+              string(6) "bottom"
+            }
+            ["description"]=>
+            string(39) "Select content position within columns."
+          }
+          [7]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(21) "Use video background?"
+            ["param_name"]=>
+            string(8) "video_bg"
+            ["description"]=>
+            string(49) "If checked, video will be used as row background."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [8]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(12) "YouTube link"
+            ["param_name"]=>
+            string(12) "video_bg_url"
+            ["value"]=>
+            string(43) "https://www.youtube.com/watch?v=lMJXxhRFO1k"
+            ["description"]=>
+            string(17) "Add YouTube link."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [9]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(8) "Parallax"
+            ["param_name"]=>
+            string(17) "video_bg_parallax"
+            ["value"]=>
+            array(3) {
+              ["Brak"]=>
+              string(0) ""
+              ["Simple"]=>
+              string(14) "content-moving"
+              ["With fade"]=>
+              string(19) "content-moving-fade"
+            }
+            ["description"]=>
+            string(37) "Add parallax type background for row."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [10]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(8) "Parallax"
+            ["param_name"]=>
+            string(8) "parallax"
+            ["value"]=>
+            array(3) {
+              ["Brak"]=>
+              string(0) ""
+              ["Simple"]=>
+              string(14) "content-moving"
+              ["With fade"]=>
+              string(19) "content-moving-fade"
+            }
+            ["description"]=>
+            string(126) "Add parallax type background for row (Note: If no image is specified, parallax will use background image from Design Options)."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["is_empty"]=>
+              bool(true)
+            }
+          }
+          [11]=>
+          array(6) {
+            ["type"]=>
+            string(12) "attach_image"
+            ["heading"]=>
+            string(7) "Obrazek"
+            ["param_name"]=>
+            string(14) "parallax_image"
+            ["value"]=>
+            string(0) ""
+            ["description"]=>
+            string(32) "Select image from media library."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [12]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(14) "Parallax speed"
+            ["param_name"]=>
+            string(20) "parallax_speed_video"
+            ["value"]=>
+            string(3) "1.5"
+            ["description"]=>
+            string(71) "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(17) "video_bg_parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [13]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(14) "Parallax speed"
+            ["param_name"]=>
+            string(17) "parallax_speed_bg"
+            ["value"]=>
+            string(3) "1.5"
+            ["description"]=>
+            string(71) "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [14]=>
+          array(7) {
+            ["type"]=>
+            string(15) "animation_style"
+            ["heading"]=>
+            string(13) "CSS Animation"
+            ["param_name"]=>
+            string(13) "css_animation"
+            ["admin_label"]=>
+            bool(false)
+            ["value"]=>
+            string(0) ""
+            ["settings"]=>
+            array(2) {
+              ["type"]=>
+              string(2) "in"
+              ["custom"]=>
+              array(1) {
+                [0]=>
+                array(2) {
+                  ["label"]=>
+                  string(7) "Default"
+                  ["values"]=>
+                  array(5) {
+                    ["Top to bottom"]=>
+                    string(13) "top-to-bottom"
+                    ["Bottom to top"]=>
+                    string(13) "bottom-to-top"
+                    ["Left to right"]=>
+                    string(13) "left-to-right"
+                    ["Right to left"]=>
+                    string(13) "right-to-left"
+                    ["Appear from center"]=>
+                    string(6) "appear"
+                  }
+                }
+              }
+            }
+            ["description"]=>
+            string(139) "Select type of animation for element to be animated when it &quot;enters&quot; the browsers viewport (Note: works only in modern browsers)."
+          }
+          [15]=>
+          array(4) {
+            ["type"]=>
+            string(5) "el_id"
+            ["heading"]=>
+            string(6) "Row ID"
+            ["param_name"]=>
+            string(5) "el_id"
+            ["description"]=>
+            string(168) "Enter element ID (Note: make sure it is unique and valid according to <a href="https://www.w3schools.com/tags/att_global_id.asp" target="_blank">w3c specification</a>)."
+          }
+          [16]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(11) "Disable row"
+            ["param_name"]=>
+            string(15) "disable_element"
+            ["description"]=>
+            string(109) "If checked the row won&#039;t be visible on the public side of your website. You can switch it back any time."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [17]=>
+          array(4) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(27) "Dodaj dodatkową klasę CSS"
+            ["param_name"]=>
+            string(8) "el_class"
+            ["description"]=>
+            string(94) "Style particular content element differently - add a class name and refer to it in custom CSS."
+          }
+          [18]=>
+          array(4) {
+            ["type"]=>
+            string(10) "css_editor"
+            ["heading"]=>
+            string(7) "CSS box"
+            ["param_name"]=>
+            string(3) "css"
+            ["group"]=>
+            string(14) "Design Options"
+          }
+          [19]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(22) "Enable Inner Container"
+            ["param_name"]=>
+            string(18) "enable_full_screen"
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+            ["description"]=>
+            string(0) ""
+          }
+        }
+        ["js_view"]=>
+        string(9) "VcRowView"
+        ["base"]=>
+        string(6) "vc_row"
+      }
+      ["shortcode_string":protected]=>
+      string(0) ""
+      ["controls_template_file":protected]=>
+      string(41) "editors/partials/backend_controls.tpl.php"
+      ["controls_css_settings":protected]=>
+      string(2) "cc"
+      ["controls_list":protected]=>
+      array(3) {
+        [0]=>
+        string(4) "edit"
+        [1]=>
+        string(5) "clone"
+        [2]=>
+        string(6) "delete"
+      }
+      ["shortcode_content":protected]=>
+      string(23) "[vc_column][/vc_column]"
+    }
+    ["type"]=>
+    string(2) "->"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      &array(20) {
+        ["full_width"]=>
+        string(0) ""
+        ["gap"]=>
+        string(1) "0"
+        ["full_height"]=>
+        string(0) ""
+        ["columns_placement"]=>
+        string(6) "middle"
+        ["equal_height"]=>
+        string(0) ""
+        ["rtl_reverse"]=>
+        string(0) ""
+        ["content_placement"]=>
+        string(0) ""
+        ["video_bg"]=>
+        string(0) ""
+        ["video_bg_url"]=>
+        string(43) "https://www.youtube.com/watch?v=lMJXxhRFO1k"
+        ["video_bg_parallax"]=>
+        string(0) ""
+        ["parallax"]=>
+        string(0) ""
+        ["parallax_image"]=>
+        string(0) ""
+        ["parallax_speed_video"]=>
+        string(3) "1.5"
+        ["parallax_speed_bg"]=>
+        string(3) "1.5"
+        ["css_animation"]=>
+        string(0) ""
+        ["el_id"]=>
+        string(0) ""
+        ["disable_element"]=>
+        string(0) ""
+        ["el_class"]=>
+        string(0) ""
+        ["css"]=>
+        string(92) ".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"
+        ["enable_full_screen"]=>
+        string(0) ""
+      }
+      [1]=>
+      string(23) "[vc_column][/vc_column]"
+    }
+  }
+  [2]=>
+  array(7) {
+    ["file"]=>
+    string(133) "/home/bitrends/web/bitrends.pl/public_html/wp-content/plugins/js_composer/include/classes/shortcodes/core/class-wpbakeryshortcode.php"
+    ["line"]=>
+    int(366)
+    ["function"]=>
+    string(7) "content"
+    ["class"]=>
+    string(24) "WPBakeryShortCode_Vc_Row"
+    ["object"]=>
+    object(WPBakeryShortCode_Vc_Row)#5392 (11) {
+      ["predefined_atts":protected]=>
+      array(1) {
+        ["el_class"]=>
+        string(0) ""
+      }
+      ["nonDraggableClass"]=>
+      string(20) "vc-non-draggable-row"
+      ["shortcode":protected]=>
+      string(6) "vc_row"
+      ["html_template":protected]=>
+      string(100) "/home/bitrends/web/bitrends.pl/public_html/wp-content/themes/lgx-event-point/vc_templates/vc_row.php"
+      ["atts":protected]=>
+      array(1) {
+        ["css"]=>
+        string(92) ".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"
+      }
+      ["settings":protected]=>
+      array(10) {
+        ["name"]=>
+        string(3) "Row"
+        ["is_container"]=>
+        bool(true)
+        ["icon"]=>
+        string(12) "icon-wpb-row"
+        ["show_settings_on_create"]=>
+        bool(false)
+        ["category"]=>
+        string(7) "Treść"
+        ["class"]=>
+        string(24) "vc_main-sortable-element"
+        ["description"]=>
+        string(37) "Place content elements inside the row"
+        ["params"]=>
+        array(20) {
+          [0]=>
+          array(5) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(11) "Row stretch"
+            ["param_name"]=>
+            string(10) "full_width"
+            ["value"]=>
+            array(4) {
+              ["Default"]=>
+              string(0) ""
+              ["Stretch row"]=>
+              string(11) "stretch_row"
+              ["Stretch row and content"]=>
+              string(19) "stretch_row_content"
+              ["Stretch row and content (no paddings)"]=>
+              string(29) "stretch_row_content_no_spaces"
+            }
+            ["description"]=>
+            string(152) "Select stretching options for row and content (Note: stretched may not work properly if parent container has &quot;overflow: hidden&quot; CSS property)."
+          }
+          [1]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(11) "Columns gap"
+            ["param_name"]=>
+            string(3) "gap"
+            ["value"]=>
+            array(12) {
+              ["0px"]=>
+              string(1) "0"
+              ["1px"]=>
+              string(1) "1"
+              ["2px"]=>
+              string(1) "2"
+              ["3px"]=>
+              string(1) "3"
+              ["4px"]=>
+              string(1) "4"
+              ["5px"]=>
+              string(1) "5"
+              ["10px"]=>
+              string(2) "10"
+              ["15px"]=>
+              string(2) "15"
+              ["20px"]=>
+              string(2) "20"
+              ["25px"]=>
+              string(2) "25"
+              ["30px"]=>
+              string(2) "30"
+              ["35px"]=>
+              string(2) "35"
+            }
+            ["std"]=>
+            string(1) "0"
+            ["description"]=>
+            string(34) "Select gap between columns in row."
+          }
+          [2]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(16) "Full height row?"
+            ["param_name"]=>
+            string(11) "full_height"
+            ["description"]=>
+            string(42) "If checked row will be set to full height."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [3]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(16) "Columns position"
+            ["param_name"]=>
+            string(17) "columns_placement"
+            ["value"]=>
+            array(4) {
+              ["Middle"]=>
+              string(6) "middle"
+              ["Top"]=>
+              string(3) "top"
+              ["Bottom"]=>
+              string(6) "bottom"
+              ["Stretch"]=>
+              string(7) "stretch"
+            }
+            ["description"]=>
+            string(35) "Select columns position within row."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(11) "full_height"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [4]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(12) "Equal height"
+            ["param_name"]=>
+            string(12) "equal_height"
+            ["description"]=>
+            string(47) "If checked columns will be set to equal height."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [5]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(22) "Reverse columns in RTL"
+            ["param_name"]=>
+            string(11) "rtl_reverse"
+            ["description"]=>
+            string(43) "If checked columns will be reversed in RTL."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [6]=>
+          array(5) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(16) "Content position"
+            ["param_name"]=>
+            string(17) "content_placement"
+            ["value"]=>
+            array(4) {
+              ["Default"]=>
+              string(0) ""
+              ["Top"]=>
+              string(3) "top"
+              ["Middle"]=>
+              string(6) "middle"
+              ["Bottom"]=>
+              string(6) "bottom"
+            }
+            ["description"]=>
+            string(39) "Select content position within columns."
+          }
+          [7]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(21) "Use video background?"
+            ["param_name"]=>
+            string(8) "video_bg"
+            ["description"]=>
+            string(49) "If checked, video will be used as row background."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [8]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(12) "YouTube link"
+            ["param_name"]=>
+            string(12) "video_bg_url"
+            ["value"]=>
+            string(43) "https://www.youtube.com/watch?v=lMJXxhRFO1k"
+            ["description"]=>
+            string(17) "Add YouTube link."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [9]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(8) "Parallax"
+            ["param_name"]=>
+            string(17) "video_bg_parallax"
+            ["value"]=>
+            array(3) {
+              ["Brak"]=>
+              string(0) ""
+              ["Simple"]=>
+              string(14) "content-moving"
+              ["With fade"]=>
+              string(19) "content-moving-fade"
+            }
+            ["description"]=>
+            string(37) "Add parallax type background for row."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [10]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(8) "Parallax"
+            ["param_name"]=>
+            string(8) "parallax"
+            ["value"]=>
+            array(3) {
+              ["Brak"]=>
+              string(0) ""
+              ["Simple"]=>
+              string(14) "content-moving"
+              ["With fade"]=>
+              string(19) "content-moving-fade"
+            }
+            ["description"]=>
+            string(126) "Add parallax type background for row (Note: If no image is specified, parallax will use background image from Design Options)."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["is_empty"]=>
+              bool(true)
+            }
+          }
+          [11]=>
+          array(6) {
+            ["type"]=>
+            string(12) "attach_image"
+            ["heading"]=>
+            string(7) "Obrazek"
+            ["param_name"]=>
+            string(14) "parallax_image"
+            ["value"]=>
+            string(0) ""
+            ["description"]=>
+            string(32) "Select image from media library."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [12]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(14) "Parallax speed"
+            ["param_name"]=>
+            string(20) "parallax_speed_video"
+            ["value"]=>
+            string(3) "1.5"
+            ["description"]=>
+            string(71) "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(17) "video_bg_parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [13]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(14) "Parallax speed"
+            ["param_name"]=>
+            string(17) "parallax_speed_bg"
+            ["value"]=>
+            string(3) "1.5"
+            ["description"]=>
+            string(71) "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [14]=>
+          array(7) {
+            ["type"]=>
+            string(15) "animation_style"
+            ["heading"]=>
+            string(13) "CSS Animation"
+            ["param_name"]=>
+            string(13) "css_animation"
+            ["admin_label"]=>
+            bool(false)
+            ["value"]=>
+            string(0) ""
+            ["settings"]=>
+            array(2) {
+              ["type"]=>
+              string(2) "in"
+              ["custom"]=>
+              array(1) {
+                [0]=>
+                array(2) {
+                  ["label"]=>
+                  string(7) "Default"
+                  ["values"]=>
+                  array(5) {
+                    ["Top to bottom"]=>
+                    string(13) "top-to-bottom"
+                    ["Bottom to top"]=>
+                    string(13) "bottom-to-top"
+                    ["Left to right"]=>
+                    string(13) "left-to-right"
+                    ["Right to left"]=>
+                    string(13) "right-to-left"
+                    ["Appear from center"]=>
+                    string(6) "appear"
+                  }
+                }
+              }
+            }
+            ["description"]=>
+            string(139) "Select type of animation for element to be animated when it &quot;enters&quot; the browsers viewport (Note: works only in modern browsers)."
+          }
+          [15]=>
+          array(4) {
+            ["type"]=>
+            string(5) "el_id"
+            ["heading"]=>
+            string(6) "Row ID"
+            ["param_name"]=>
+            string(5) "el_id"
+            ["description"]=>
+            string(168) "Enter element ID (Note: make sure it is unique and valid according to <a href="https://www.w3schools.com/tags/att_global_id.asp" target="_blank">w3c specification</a>)."
+          }
+          [16]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(11) "Disable row"
+            ["param_name"]=>
+            string(15) "disable_element"
+            ["description"]=>
+            string(109) "If checked the row won&#039;t be visible on the public side of your website. You can switch it back any time."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [17]=>
+          array(4) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(27) "Dodaj dodatkową klasę CSS"
+            ["param_name"]=>
+            string(8) "el_class"
+            ["description"]=>
+            string(94) "Style particular content element differently - add a class name and refer to it in custom CSS."
+          }
+          [18]=>
+          array(4) {
+            ["type"]=>
+            string(10) "css_editor"
+            ["heading"]=>
+            string(7) "CSS box"
+            ["param_name"]=>
+            string(3) "css"
+            ["group"]=>
+            string(14) "Design Options"
+          }
+          [19]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(22) "Enable Inner Container"
+            ["param_name"]=>
+            string(18) "enable_full_screen"
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+            ["description"]=>
+            string(0) ""
+          }
+        }
+        ["js_view"]=>
+        string(9) "VcRowView"
+        ["base"]=>
+        string(6) "vc_row"
+      }
+      ["shortcode_string":protected]=>
+      string(0) ""
+      ["controls_template_file":protected]=>
+      string(41) "editors/partials/backend_controls.tpl.php"
+      ["controls_css_settings":protected]=>
+      string(2) "cc"
+      ["controls_list":protected]=>
+      array(3) {
+        [0]=>
+        string(4) "edit"
+        [1]=>
+        string(5) "clone"
+        [2]=>
+        string(6) "delete"
+      }
+      ["shortcode_content":protected]=>
+      string(23) "[vc_column][/vc_column]"
+    }
+    ["type"]=>
+    string(2) "->"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      array(1) {
+        ["css"]=>
+        string(92) ".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"
+      }
+      [1]=>
+      string(23) "[vc_column][/vc_column]"
+    }
+  }
+  [3]=>
+  array(7) {
+    ["file"]=>
+    string(101) "/home/bitrends/web/bitrends.pl/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php"
+    ["line"]=>
+    int(1317)
+    ["function"]=>
+    string(6) "output"
+    ["class"]=>
+    string(17) "WPBakeryShortCode"
+    ["object"]=>
+    object(WPBakeryShortCode_Vc_Row)#5392 (11) {
+      ["predefined_atts":protected]=>
+      array(1) {
+        ["el_class"]=>
+        string(0) ""
+      }
+      ["nonDraggableClass"]=>
+      string(20) "vc-non-draggable-row"
+      ["shortcode":protected]=>
+      string(6) "vc_row"
+      ["html_template":protected]=>
+      string(100) "/home/bitrends/web/bitrends.pl/public_html/wp-content/themes/lgx-event-point/vc_templates/vc_row.php"
+      ["atts":protected]=>
+      array(1) {
+        ["css"]=>
+        string(92) ".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"
+      }
+      ["settings":protected]=>
+      array(10) {
+        ["name"]=>
+        string(3) "Row"
+        ["is_container"]=>
+        bool(true)
+        ["icon"]=>
+        string(12) "icon-wpb-row"
+        ["show_settings_on_create"]=>
+        bool(false)
+        ["category"]=>
+        string(7) "Treść"
+        ["class"]=>
+        string(24) "vc_main-sortable-element"
+        ["description"]=>
+        string(37) "Place content elements inside the row"
+        ["params"]=>
+        array(20) {
+          [0]=>
+          array(5) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(11) "Row stretch"
+            ["param_name"]=>
+            string(10) "full_width"
+            ["value"]=>
+            array(4) {
+              ["Default"]=>
+              string(0) ""
+              ["Stretch row"]=>
+              string(11) "stretch_row"
+              ["Stretch row and content"]=>
+              string(19) "stretch_row_content"
+              ["Stretch row and content (no paddings)"]=>
+              string(29) "stretch_row_content_no_spaces"
+            }
+            ["description"]=>
+            string(152) "Select stretching options for row and content (Note: stretched may not work properly if parent container has &quot;overflow: hidden&quot; CSS property)."
+          }
+          [1]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(11) "Columns gap"
+            ["param_name"]=>
+            string(3) "gap"
+            ["value"]=>
+            array(12) {
+              ["0px"]=>
+              string(1) "0"
+              ["1px"]=>
+              string(1) "1"
+              ["2px"]=>
+              string(1) "2"
+              ["3px"]=>
+              string(1) "3"
+              ["4px"]=>
+              string(1) "4"
+              ["5px"]=>
+              string(1) "5"
+              ["10px"]=>
+              string(2) "10"
+              ["15px"]=>
+              string(2) "15"
+              ["20px"]=>
+              string(2) "20"
+              ["25px"]=>
+              string(2) "25"
+              ["30px"]=>
+              string(2) "30"
+              ["35px"]=>
+              string(2) "35"
+            }
+            ["std"]=>
+            string(1) "0"
+            ["description"]=>
+            string(34) "Select gap between columns in row."
+          }
+          [2]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(16) "Full height row?"
+            ["param_name"]=>
+            string(11) "full_height"
+            ["description"]=>
+            string(42) "If checked row will be set to full height."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [3]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(16) "Columns position"
+            ["param_name"]=>
+            string(17) "columns_placement"
+            ["value"]=>
+            array(4) {
+              ["Middle"]=>
+              string(6) "middle"
+              ["Top"]=>
+              string(3) "top"
+              ["Bottom"]=>
+              string(6) "bottom"
+              ["Stretch"]=>
+              string(7) "stretch"
+            }
+            ["description"]=>
+            string(35) "Select columns position within row."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(11) "full_height"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [4]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(12) "Equal height"
+            ["param_name"]=>
+            string(12) "equal_height"
+            ["description"]=>
+            string(47) "If checked columns will be set to equal height."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [5]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(22) "Reverse columns in RTL"
+            ["param_name"]=>
+            string(11) "rtl_reverse"
+            ["description"]=>
+            string(43) "If checked columns will be reversed in RTL."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [6]=>
+          array(5) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(16) "Content position"
+            ["param_name"]=>
+            string(17) "content_placement"
+            ["value"]=>
+            array(4) {
+              ["Default"]=>
+              string(0) ""
+              ["Top"]=>
+              string(3) "top"
+              ["Middle"]=>
+              string(6) "middle"
+              ["Bottom"]=>
+              string(6) "bottom"
+            }
+            ["description"]=>
+            string(39) "Select content position within columns."
+          }
+          [7]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(21) "Use video background?"
+            ["param_name"]=>
+            string(8) "video_bg"
+            ["description"]=>
+            string(49) "If checked, video will be used as row background."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [8]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(12) "YouTube link"
+            ["param_name"]=>
+            string(12) "video_bg_url"
+            ["value"]=>
+            string(43) "https://www.youtube.com/watch?v=lMJXxhRFO1k"
+            ["description"]=>
+            string(17) "Add YouTube link."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [9]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(8) "Parallax"
+            ["param_name"]=>
+            string(17) "video_bg_parallax"
+            ["value"]=>
+            array(3) {
+              ["Brak"]=>
+              string(0) ""
+              ["Simple"]=>
+              string(14) "content-moving"
+              ["With fade"]=>
+              string(19) "content-moving-fade"
+            }
+            ["description"]=>
+            string(37) "Add parallax type background for row."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [10]=>
+          array(6) {
+            ["type"]=>
+            string(8) "dropdown"
+            ["heading"]=>
+            string(8) "Parallax"
+            ["param_name"]=>
+            string(8) "parallax"
+            ["value"]=>
+            array(3) {
+              ["Brak"]=>
+              string(0) ""
+              ["Simple"]=>
+              string(14) "content-moving"
+              ["With fade"]=>
+              string(19) "content-moving-fade"
+            }
+            ["description"]=>
+            string(126) "Add parallax type background for row (Note: If no image is specified, parallax will use background image from Design Options)."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "video_bg"
+              ["is_empty"]=>
+              bool(true)
+            }
+          }
+          [11]=>
+          array(6) {
+            ["type"]=>
+            string(12) "attach_image"
+            ["heading"]=>
+            string(7) "Obrazek"
+            ["param_name"]=>
+            string(14) "parallax_image"
+            ["value"]=>
+            string(0) ""
+            ["description"]=>
+            string(32) "Select image from media library."
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [12]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(14) "Parallax speed"
+            ["param_name"]=>
+            string(20) "parallax_speed_video"
+            ["value"]=>
+            string(3) "1.5"
+            ["description"]=>
+            string(71) "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(17) "video_bg_parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [13]=>
+          array(6) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(14) "Parallax speed"
+            ["param_name"]=>
+            string(17) "parallax_speed_bg"
+            ["value"]=>
+            string(3) "1.5"
+            ["description"]=>
+            string(71) "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+            ["dependency"]=>
+            array(2) {
+              ["element"]=>
+              string(8) "parallax"
+              ["not_empty"]=>
+              bool(true)
+            }
+          }
+          [14]=>
+          array(7) {
+            ["type"]=>
+            string(15) "animation_style"
+            ["heading"]=>
+            string(13) "CSS Animation"
+            ["param_name"]=>
+            string(13) "css_animation"
+            ["admin_label"]=>
+            bool(false)
+            ["value"]=>
+            string(0) ""
+            ["settings"]=>
+            array(2) {
+              ["type"]=>
+              string(2) "in"
+              ["custom"]=>
+              array(1) {
+                [0]=>
+                array(2) {
+                  ["label"]=>
+                  string(7) "Default"
+                  ["values"]=>
+                  array(5) {
+                    ["Top to bottom"]=>
+                    string(13) "top-to-bottom"
+                    ["Bottom to top"]=>
+                    string(13) "bottom-to-top"
+                    ["Left to right"]=>
+                    string(13) "left-to-right"
+                    ["Right to left"]=>
+                    string(13) "right-to-left"
+                    ["Appear from center"]=>
+                    string(6) "appear"
+                  }
+                }
+              }
+            }
+            ["description"]=>
+            string(139) "Select type of animation for element to be animated when it &quot;enters&quot; the browsers viewport (Note: works only in modern browsers)."
+          }
+          [15]=>
+          array(4) {
+            ["type"]=>
+            string(5) "el_id"
+            ["heading"]=>
+            string(6) "Row ID"
+            ["param_name"]=>
+            string(5) "el_id"
+            ["description"]=>
+            string(168) "Enter element ID (Note: make sure it is unique and valid according to <a href="https://www.w3schools.com/tags/att_global_id.asp" target="_blank">w3c specification</a>)."
+          }
+          [16]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(11) "Disable row"
+            ["param_name"]=>
+            string(15) "disable_element"
+            ["description"]=>
+            string(109) "If checked the row won&#039;t be visible on the public side of your website. You can switch it back any time."
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+          }
+          [17]=>
+          array(4) {
+            ["type"]=>
+            string(9) "textfield"
+            ["heading"]=>
+            string(27) "Dodaj dodatkową klasę CSS"
+            ["param_name"]=>
+            string(8) "el_class"
+            ["description"]=>
+            string(94) "Style particular content element differently - add a class name and refer to it in custom CSS."
+          }
+          [18]=>
+          array(4) {
+            ["type"]=>
+            string(10) "css_editor"
+            ["heading"]=>
+            string(7) "CSS box"
+            ["param_name"]=>
+            string(3) "css"
+            ["group"]=>
+            string(14) "Design Options"
+          }
+          [19]=>
+          array(5) {
+            ["type"]=>
+            string(8) "checkbox"
+            ["heading"]=>
+            string(22) "Enable Inner Container"
+            ["param_name"]=>
+            string(18) "enable_full_screen"
+            ["value"]=>
+            array(1) {
+              ["Yes"]=>
+              string(3) "yes"
+            }
+            ["description"]=>
+            string(0) ""
+          }
+        }
+        ["js_view"]=>
+        string(9) "VcRowView"
+        ["base"]=>
+        string(6) "vc_row"
+      }
+      ["shortcode_string":protected]=>
+      string(0) ""
+      ["controls_template_file":protected]=>
+      string(41) "editors/partials/backend_controls.tpl.php"
+      ["controls_css_settings":protected]=>
+      string(2) "cc"
+      ["controls_list":protected]=>
+      array(3) {
+        [0]=>
+        string(4) "edit"
+        [1]=>
+        string(5) "clone"
+        [2]=>
+        string(6) "delete"
+      }
+      ["shortcode_content":protected]=>
+      string(23) "[vc_column][/vc_column]"
+    }
+    ["type"]=>
+    string(2) "->"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      array(1) {
+        ["css"]=>
+        string(92) ".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"
+      }
+      [1]=>
+      string(23) "[vc_column][/vc_column]"
+    }
+  }
+  [4]=>
+  array(4) {
+    ["file"]=>
+    string(69) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/shortcodes.php"
+    ["line"]=>
+    int(343)
+    ["function"]=>
+    string(15) "vc_do_shortcode"
+    ["args"]=>
+    array(3) {
+      [0]=>
+      array(1) {
+        ["css"]=>
+        string(92) ".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"
+      }
+      [1]=>
+      string(23) "[vc_column][/vc_column]"
+      [2]=>
+      string(6) "vc_row"
+    }
+  }
+  [5]=>
+  array(2) {
+    ["function"]=>
+    string(16) "do_shortcode_tag"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      array(7) {
+        [0]=>
+        string(139) "[vc_row css=".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"][vc_column][/vc_column][/vc_row]"
+        [1]=>
+        string(0) ""
+        [2]=>
+        string(6) "vc_row"
+        [3]=>
+        string(99) " css=".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}""
+        [4]=>
+        string(0) ""
+        [5]=>
+        string(23) "[vc_column][/vc_column]"
+        [6]=>
+        string(0) ""
+      }
+    }
+  }
+  [6]=>
+  array(4) {
+    ["file"]=>
+    string(69) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/shortcodes.php"
+    ["line"]=>
+    int(218)
+    ["function"]=>
+    string(21) "preg_replace_callback"
+    ["args"]=>
+    array(3) {
+      [0]=>
+      string(334) "/\[(\[?)(xyz\-ips|lgx_brand_btn|lgx_event_title|lgx_photo_gallery|lgx_schedule|lgx_speaker|lgx_sponsor|lgx_testimonial|lgx_event_about|vc_row|vc_row_inner|vc_column|vc_column_inner|vc_column_text|vc_single_image|vc_empty_space)(?![\w-])([^\]\/]*(?:\/(?!\])[^\]\/]*)*?)(?:(\/)\]|\](?:([^\[]*+(?:\[(?!\/\2\])[^\[]*+)*+)\[\/\2\])?)(\]?)/"
+      [1]=>
+      string(16) "do_shortcode_tag"
+      [2]=>
+      string(12527) "[vc_row enable_full_screen="yes" css=".vc_custom_1517825895974{padding-top: 20px !important;padding-bottom: 11rem !important;background-color: #ffffff !important;}" el_class="lgx-vc-video lgx-inner-2"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="O KONFERENCJI" sub_title="NOWE OBLICZE ANALITYKI BIZNESOWEJ" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2"][vc_single_image image="1043" img_size="full"][/vc_column_inner][vc_column_inner width="1/2"][lgx_event_about about_page_content="Zapraszamy na najważniejsze spotkanie praktyków analityki biznesowej oraz ekspertów zajmujących się zarządzaniem danymi. Konferencja pomoże nabyć słuchaczom niezbędną wiedzę, umożliwiającą doprowadzenie firmy do doskonałości w zarządzaniu wydajnością organizacji. Podczas spotkania wymienimy doświadczenia dotyczące kierunków rozwoju Business Intelligence. Porozmawiamy o tym jak opracować skuteczne metody BI oraz jakie z nich wdrażać dla poprawy jakości pracy danych. Biorąc udział w wydarzeniu nabędziesz merytoryczną wiedzę, dającą szerokie spojrzenie na rynek oraz najnowsze trendy zarządzania danymi. Poznasz również najlepsze praktyki w tym obszarze. Data Science, Machine Learning, Artifical Intelligence czy Data Lakes, to tylko niektóre hasła, wokół których koncentrować się będzie wydarzenie. Wystąpienia wybitnych prelegentów będą gwarancją kompleksowego omówienia najważniejszych aspektów analityki biznesowej i napotykanych problemów zarządzania danymi z wielu perspektyw." buy_url="https://bankingtech.pl/#rejestracja" buy_text="ZAREJESTRUJ SIĘ" buy_urlr="https://bankingtech.pl/o-wydarzeniu" buy_textr="WIĘCEJ O WYDARZENIU" about_page_id="589"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1100" enable_full_screen="yes" css=".vc_custom_1525260843808{padding-top: 11rem !important;padding-bottom: 11rem !important;background-color: #f1f1f1 !important;}" el_class="lgx-inner-2" el_id="lgx-speakerss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="Prelegenci" sub_title="" icon_name="fa-microphone" color="lgx-heading-brand"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/4"][lgx_speaker id="1670"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1674"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1676"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1678"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_brand_btn text="ZOBACZ WSZYSTKICH" url="https://bankingtech.pl/prelegenci/" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826294220{padding-top: 50px !important;padding-bottom: 11rem !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2017/02/schedule-bg-style-1-1.png?id=390) !important;}" el_class="lgx-inner-2 lgx-schedule-main" el_id="lgx-schedules"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="AGENDA" sub_title="KIERUNKI ROZWOJU ANALITYKI BIZNESOWEJ" icon_name="fa-calendar"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826351301{margin-top: -25px !important;}"][vc_column_inner][lgx_schedule order="ASC" order_by="date"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="354" enable_full_screen="yes" css=".vc_custom_1517826390986{padding-top: 70px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-sponsorss"][vc_column][vc_row_inner css=".vc_custom_1525260879603{margin-bottom: -50px !important;padding-bottom: 0px !important;}"][vc_column_inner][lgx_event_title title="PARTNERZY" sub_title="Liderzy rynku są z nami"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1525260851303{margin-top: -10px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: 10px !important;padding-top: 0px !important;}"][lgx_sponsor title="SPONSORZY" sponsor_images="%5B%7B%22sponsor_image%22%3A%221684%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fnewdatalabs.com%2F%22%7D%2C%7B%22sponsor_image%22%3A%221685%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.signavio.com%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1581972900435{margin-top: 20px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: -50px !important;padding-top: 0px !important;}"][lgx_sponsor title="WSPÓŁPRACA MERYTORYCZNA" sponsor_images="%5B%7B%22sponsor_image%22%3A%221694%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ficm.edu.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221693%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fit-consulting.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221692%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dotlaw.co%2F%22%7D%2C%7B%22sponsor_image%22%3A%221691%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.ey.com%2Fpl_pl%22%7D%5D"][lgx_sponsor title="PATRONI MEDIALNI" sponsor_images="%5B%7B%22sponsor_image%22%3A%221541%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Femployear.com%22%7D%2C%7B%22sponsor_image%22%3A%221554%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgu.com.pl%22%7D%2C%7B%22sponsor_image%22%3A%221555%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dlp-expert.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221556%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgazeta-msp.pl%22%7D%2C%7B%22sponsor_image%22%3A%221557%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbiznes2biznes.com%22%7D%2C%7B%22sponsor_image%22%3A%221558%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.karierawfinansach.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221559%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmojebankowanie.pl%22%7D%2C%7B%22sponsor_image%22%3A%221564%22%2C%22sponsor_url%22%3A%22javascript%3Avoid(0)%22%7D%2C%7B%22sponsor_image%22%3A%221565%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbeinsured.pl%22%7D%2C%7B%22sponsor_image%22%3A%221566%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmbrokers.pl%22%7D%2C%7B%22sponsor_image%22%3A%221657%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ffintek.pl%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1490979341962{margin-top: 1.6rem !important;}"][vc_column_inner][lgx_brand_btn text="ZOSTAŃ SPONSOREM" url="https://bankingtech.pl/zostan-sponsorem" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826413123{padding-top: 50px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-travelinfos"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="WEŹ UDZIAŁ W SPOTKANIU JEŚLI" sub_title="" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826445484{margin-top: -50px !important;}"][vc_column_inner width="1/2"][vc_column_text el_class="claska"]
+<ul>
+<li>Wydarzenia, w których dotychczas brałeś udział, nie wniosły nic nowego do Twojej codzienności zarządzania i analizy danych</li>
+<li>Chcesz na nowo zdefiniować takie zagadnienia jak: Performance Management, Data Lakes, Artifical Intelligence</li>
+<li>Zamierzasz podjąć wyzwanie i wziąć udział w pełnym wiedzy oraz wartościowym merytorycznie dniu</li>
+</ul>
+[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text el_class="claska"]
+<ul>
+<li>Chcesz rozwiązać swój case na żywo i uzyskać rekomendacje największych ekspertów w obszarze analityki biznesowych danych</li>
+<li>Chcesz wziąć udział w niepowtarzalnej dyskusji o poprawie wydajności organizacji</li>
+<li>Chcesz spotkać osoby ze swojego środowiska, wymienić się doświadczeniami i pozyskać cenne kontakty biznesowe</li>
+</ul>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space][lgx_brand_btn text="ZOBACZ RELACJĘ Z POPRZEDNIEJ EDYCJI WYDARZENIA" url="https://bankingtech.pl/fotorelacja/"][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1079" section_id="REJESTRACJA" fullwidth="no" bg_image_custom="121" css=".vc_custom_1517221439711{margin-top: 0px !important;margin-bottom: 0px !important;border-top-width: 0px !important;border-bottom-width: 0px !important;padding-top: 30px !important;padding-bottom: 30px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2018/01/pod-rejestracje-opcja-1-3.jpg?id=930) !important;background-position: center;background-repeat: no-repeat;background-size:cover;}" el_id="rejestracja" parallax_bg="1" stellar_background_ratio="0.2" el_class="rejka"][vc_column][lgx_event_title title="REJESTRACJA / chcę tam być" sub_title="" icon_name="fa-ticket" color="lgx-heading-brand"][vc_column_text css=".vc_custom_1521653821459{margin-top: -80px !important;}"]
+<p style="text-align: center;"><span style="color: #ffffff;">Chcesz być na bieżąco ze wszystkim, najważniejszymi aspektami informatyzacji bankowości?</span><br />
+<span style="color: #ffffff;">Weź bezpłatny udział w konferencji i bądź na bieżąco!</span>[/vc_column_text][vc_column_text][xyz-ips snippet="rejestracjanowa"][/vc_column_text][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1491538882144{padding-top: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-gallerys"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="GALERIA" sub_title="" icon_name="fa-picture-o"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_photo_gallery number="-1"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826664032{padding-top: 60px !important;padding-bottom: 11rem !important;background-color: #f9f9f9 !important;}" el_class="lgx-inner-2" el_id="lgx-newss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="DO UDZIAŁU ZAPRASZAMY" sub_title="" icon_name="fa-newspaper-o"][vc_column_text el_class="listasazk"]
+<p style="text-align: center;"><span class="obaza">• Prezesów i Członków Zarządu,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów Generalnych i Zarządzających,</span></p>
+<p style="text-align: center;"><span class="obaza">• CIO, Dyrektorów, Kierowników oraz Managerów działów informatycznych oraz technologii,</span></p>
+<p style="text-align: center;"><span class="obaza">• Liderów oraz Managerów Business Intelligence,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów zarządzania wydajnością,</span></p>
+<p style="text-align: center;"><span class="obaza">• Kierowników projektów,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów ds. strategii i rozwoju,</span></p>
+<p style="text-align: center;"><span class="obaza">• Reprezentantów departamentu Business Development,</span></p>
+<p style="text-align: center;"><span class="obaza">• Managerów i administratorów hurtowni danych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Analityków biznesowych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów, Kierowników i Managerów ds. operacyjnych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów finansowych</span></p>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1493142534872{padding-top: 11rem !important;padding-bottom: 6.8rem !important;}" el_class="lgx-inner-2" el_id="lgx-testimonialss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="OPINIE" sub_title="" icon_name="fa-quote-left"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_testimonial limit="5"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1583930857404{padding-top: 200px !important;padding-right: 0px !important;padding-bottom: 200px !important;padding-left: 0px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2020/03/jjjhha.jpg?id=1585) !important;}" el_class="lgx-vc-map" el_id="lokalizacja"][vc_column][/vc_column][/vc_row][vc_row css=".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"][vc_column][/vc_column][/vc_row]
+"
+    }
+  }
+  [7]=>
+  array(4) {
+    ["file"]=>
+    string(72) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/class-wp-hook.php"
+    ["line"]=>
+    int(287)
+    ["function"]=>
+    string(12) "do_shortcode"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      string(12527) "[vc_row enable_full_screen="yes" css=".vc_custom_1517825895974{padding-top: 20px !important;padding-bottom: 11rem !important;background-color: #ffffff !important;}" el_class="lgx-vc-video lgx-inner-2"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="O KONFERENCJI" sub_title="NOWE OBLICZE ANALITYKI BIZNESOWEJ" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2"][vc_single_image image="1043" img_size="full"][/vc_column_inner][vc_column_inner width="1/2"][lgx_event_about about_page_content="Zapraszamy na najważniejsze spotkanie praktyków analityki biznesowej oraz ekspertów zajmujących się zarządzaniem danymi. Konferencja pomoże nabyć słuchaczom niezbędną wiedzę, umożliwiającą doprowadzenie firmy do doskonałości w zarządzaniu wydajnością organizacji. Podczas spotkania wymienimy doświadczenia dotyczące kierunków rozwoju Business Intelligence. Porozmawiamy o tym jak opracować skuteczne metody BI oraz jakie z nich wdrażać dla poprawy jakości pracy danych. Biorąc udział w wydarzeniu nabędziesz merytoryczną wiedzę, dającą szerokie spojrzenie na rynek oraz najnowsze trendy zarządzania danymi. Poznasz również najlepsze praktyki w tym obszarze. Data Science, Machine Learning, Artifical Intelligence czy Data Lakes, to tylko niektóre hasła, wokół których koncentrować się będzie wydarzenie. Wystąpienia wybitnych prelegentów będą gwarancją kompleksowego omówienia najważniejszych aspektów analityki biznesowej i napotykanych problemów zarządzania danymi z wielu perspektyw." buy_url="https://bankingtech.pl/#rejestracja" buy_text="ZAREJESTRUJ SIĘ" buy_urlr="https://bankingtech.pl/o-wydarzeniu" buy_textr="WIĘCEJ O WYDARZENIU" about_page_id="589"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1100" enable_full_screen="yes" css=".vc_custom_1525260843808{padding-top: 11rem !important;padding-bottom: 11rem !important;background-color: #f1f1f1 !important;}" el_class="lgx-inner-2" el_id="lgx-speakerss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="Prelegenci" sub_title="" icon_name="fa-microphone" color="lgx-heading-brand"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/4"][lgx_speaker id="1670"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1674"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1676"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1678"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_brand_btn text="ZOBACZ WSZYSTKICH" url="https://bankingtech.pl/prelegenci/" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826294220{padding-top: 50px !important;padding-bottom: 11rem !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2017/02/schedule-bg-style-1-1.png?id=390) !important;}" el_class="lgx-inner-2 lgx-schedule-main" el_id="lgx-schedules"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="AGENDA" sub_title="KIERUNKI ROZWOJU ANALITYKI BIZNESOWEJ" icon_name="fa-calendar"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826351301{margin-top: -25px !important;}"][vc_column_inner][lgx_schedule order="ASC" order_by="date"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="354" enable_full_screen="yes" css=".vc_custom_1517826390986{padding-top: 70px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-sponsorss"][vc_column][vc_row_inner css=".vc_custom_1525260879603{margin-bottom: -50px !important;padding-bottom: 0px !important;}"][vc_column_inner][lgx_event_title title="PARTNERZY" sub_title="Liderzy rynku są z nami"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1525260851303{margin-top: -10px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: 10px !important;padding-top: 0px !important;}"][lgx_sponsor title="SPONSORZY" sponsor_images="%5B%7B%22sponsor_image%22%3A%221684%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fnewdatalabs.com%2F%22%7D%2C%7B%22sponsor_image%22%3A%221685%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.signavio.com%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1581972900435{margin-top: 20px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: -50px !important;padding-top: 0px !important;}"][lgx_sponsor title="WSPÓŁPRACA MERYTORYCZNA" sponsor_images="%5B%7B%22sponsor_image%22%3A%221694%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ficm.edu.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221693%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fit-consulting.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221692%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dotlaw.co%2F%22%7D%2C%7B%22sponsor_image%22%3A%221691%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.ey.com%2Fpl_pl%22%7D%5D"][lgx_sponsor title="PATRONI MEDIALNI" sponsor_images="%5B%7B%22sponsor_image%22%3A%221541%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Femployear.com%22%7D%2C%7B%22sponsor_image%22%3A%221554%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgu.com.pl%22%7D%2C%7B%22sponsor_image%22%3A%221555%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dlp-expert.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221556%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgazeta-msp.pl%22%7D%2C%7B%22sponsor_image%22%3A%221557%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbiznes2biznes.com%22%7D%2C%7B%22sponsor_image%22%3A%221558%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.karierawfinansach.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221559%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmojebankowanie.pl%22%7D%2C%7B%22sponsor_image%22%3A%221564%22%2C%22sponsor_url%22%3A%22javascript%3Avoid(0)%22%7D%2C%7B%22sponsor_image%22%3A%221565%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbeinsured.pl%22%7D%2C%7B%22sponsor_image%22%3A%221566%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmbrokers.pl%22%7D%2C%7B%22sponsor_image%22%3A%221657%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ffintek.pl%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1490979341962{margin-top: 1.6rem !important;}"][vc_column_inner][lgx_brand_btn text="ZOSTAŃ SPONSOREM" url="https://bankingtech.pl/zostan-sponsorem" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826413123{padding-top: 50px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-travelinfos"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="WEŹ UDZIAŁ W SPOTKANIU JEŚLI" sub_title="" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826445484{margin-top: -50px !important;}"][vc_column_inner width="1/2"][vc_column_text el_class="claska"]
+<ul>
+<li>Wydarzenia, w których dotychczas brałeś udział, nie wniosły nic nowego do Twojej codzienności zarządzania i analizy danych</li>
+<li>Chcesz na nowo zdefiniować takie zagadnienia jak: Performance Management, Data Lakes, Artifical Intelligence</li>
+<li>Zamierzasz podjąć wyzwanie i wziąć udział w pełnym wiedzy oraz wartościowym merytorycznie dniu</li>
+</ul>
+[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text el_class="claska"]
+<ul>
+<li>Chcesz rozwiązać swój case na żywo i uzyskać rekomendacje największych ekspertów w obszarze analityki biznesowych danych</li>
+<li>Chcesz wziąć udział w niepowtarzalnej dyskusji o poprawie wydajności organizacji</li>
+<li>Chcesz spotkać osoby ze swojego środowiska, wymienić się doświadczeniami i pozyskać cenne kontakty biznesowe</li>
+</ul>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space][lgx_brand_btn text="ZOBACZ RELACJĘ Z POPRZEDNIEJ EDYCJI WYDARZENIA" url="https://bankingtech.pl/fotorelacja/"][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1079" section_id="REJESTRACJA" fullwidth="no" bg_image_custom="121" css=".vc_custom_1517221439711{margin-top: 0px !important;margin-bottom: 0px !important;border-top-width: 0px !important;border-bottom-width: 0px !important;padding-top: 30px !important;padding-bottom: 30px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2018/01/pod-rejestracje-opcja-1-3.jpg?id=930) !important;background-position: center;background-repeat: no-repeat;background-size:cover;}" el_id="rejestracja" parallax_bg="1" stellar_background_ratio="0.2" el_class="rejka"][vc_column][lgx_event_title title="REJESTRACJA / chcę tam być" sub_title="" icon_name="fa-ticket" color="lgx-heading-brand"][vc_column_text css=".vc_custom_1521653821459{margin-top: -80px !important;}"]
+<p style="text-align: center;"><span style="color: #ffffff;">Chcesz być na bieżąco ze wszystkim, najważniejszymi aspektami informatyzacji bankowości?</span><br />
+<span style="color: #ffffff;">Weź bezpłatny udział w konferencji i bądź na bieżąco!</span>[/vc_column_text][vc_column_text][xyz-ips snippet="rejestracjanowa"][/vc_column_text][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1491538882144{padding-top: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-gallerys"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="GALERIA" sub_title="" icon_name="fa-picture-o"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_photo_gallery number="-1"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826664032{padding-top: 60px !important;padding-bottom: 11rem !important;background-color: #f9f9f9 !important;}" el_class="lgx-inner-2" el_id="lgx-newss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="DO UDZIAŁU ZAPRASZAMY" sub_title="" icon_name="fa-newspaper-o"][vc_column_text el_class="listasazk"]
+<p style="text-align: center;"><span class="obaza">• Prezesów i Członków Zarządu,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów Generalnych i Zarządzających,</span></p>
+<p style="text-align: center;"><span class="obaza">• CIO, Dyrektorów, Kierowników oraz Managerów działów informatycznych oraz technologii,</span></p>
+<p style="text-align: center;"><span class="obaza">• Liderów oraz Managerów Business Intelligence,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów zarządzania wydajnością,</span></p>
+<p style="text-align: center;"><span class="obaza">• Kierowników projektów,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów ds. strategii i rozwoju,</span></p>
+<p style="text-align: center;"><span class="obaza">• Reprezentantów departamentu Business Development,</span></p>
+<p style="text-align: center;"><span class="obaza">• Managerów i administratorów hurtowni danych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Analityków biznesowych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów, Kierowników i Managerów ds. operacyjnych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów finansowych</span></p>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1493142534872{padding-top: 11rem !important;padding-bottom: 6.8rem !important;}" el_class="lgx-inner-2" el_id="lgx-testimonialss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="OPINIE" sub_title="" icon_name="fa-quote-left"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_testimonial limit="5"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1583930857404{padding-top: 200px !important;padding-right: 0px !important;padding-bottom: 200px !important;padding-left: 0px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2020/03/jjjhha.jpg?id=1585) !important;}" el_class="lgx-vc-map" el_id="lokalizacja"][vc_column][/vc_column][/vc_row][vc_row css=".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"][vc_column][/vc_column][/vc_row]
+"
+    }
+  }
+  [8]=>
+  array(7) {
+    ["file"]=>
+    string(65) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/plugin.php"
+    ["line"]=>
+    int(206)
+    ["function"]=>
+    string(13) "apply_filters"
+    ["class"]=>
+    string(7) "WP_Hook"
+    ["object"]=>
+    object(WP_Hook)#82 (5) {
+      ["callbacks"]=>
+      array(5) {
+        [8]=>
+        array(2) {
+          ["000000005dfa4b690000000024e764b6run_shortcode"]=>
+          array(2) {
+            ["function"]=>
+            array(2) {
+              [0]=>
+              object(WP_Embed)#561 (7) {
+                ["handlers"]=>
+                array(2) {
+                  [10]=>
+                  array(1) {
+                    ["youtube_embed_url"]=>
+                    array(2) {
+                      ["regex"]=>
+                      string(51) "#https?://(www.)?youtube\.com/(?:v|embed)/([^/]+)#i"
+                      ["callback"]=>
+                      string(24) "wp_embed_handler_youtube"
+                    }
+                  }
+                  [9999]=>
+                  array(2) {
+                    ["audio"]=>
+                    array(2) {
+                      ["regex"]=>
+                      string(41) "#^https?://.+?\.(mp3|ogg|flac|m4a|wav)$#i"
+                      ["callback"]=>
+                      string(22) "wp_embed_handler_audio"
+                    }
+                    ["video"]=>
+                    array(2) {
+                      ["regex"]=>
+                      string(41) "#^https?://.+?\.(mp4|m4v|webm|ogv|flv)$#i"
+                      ["callback"]=>
+                      string(22) "wp_embed_handler_video"
+                    }
+                  }
+                }
+                ["post_ID"]=>
+                NULL
+                ["usecache"]=>
+                bool(true)
+                ["linkifunknown"]=>
+                bool(true)
+                ["last_attr"]=>
+                array(0) {
+                }
+                ["last_url"]=>
+                string(0) ""
+                ["return_false_on_fail"]=>
+                bool(false)
+              }
+              [1]=>
+              string(13) "run_shortcode"
+            }
+            ["accepted_args"]=>
+            int(1)
+          }
+          ["000000005dfa4b690000000024e764b6autoembed"]=>
+          array(2) {
+            ["function"]=>
+            array(2) {
+              [0]=>
+              object(WP_Embed)#561 (7) {
+                ["handlers"]=>
+                array(2) {
+                  [10]=>
+                  array(1) {
+                    ["youtube_embed_url"]=>
+                    array(2) {
+                      ["regex"]=>
+                      string(51) "#https?://(www.)?youtube\.com/(?:v|embed)/([^/]+)#i"
+                      ["callback"]=>
+                      string(24) "wp_embed_handler_youtube"
+                    }
+                  }
+                  [9999]=>
+                  array(2) {
+                    ["audio"]=>
+                    array(2) {
+                      ["regex"]=>
+                      string(41) "#^https?://.+?\.(mp3|ogg|flac|m4a|wav)$#i"
+                      ["callback"]=>
+                      string(22) "wp_embed_handler_audio"
+                    }
+                    ["video"]=>
+                    array(2) {
+                      ["regex"]=>
+                      string(41) "#^https?://.+?\.(mp4|m4v|webm|ogv|flv)$#i"
+                      ["callback"]=>
+                      string(22) "wp_embed_handler_video"
+                    }
+                  }
+                }
+                ["post_ID"]=>
+                NULL
+                ["usecache"]=>
+                bool(true)
+                ["linkifunknown"]=>
+                bool(true)
+                ["last_attr"]=>
+                array(0) {
+                }
+                ["last_url"]=>
+                string(0) ""
+                ["return_false_on_fail"]=>
+                bool(false)
+              }
+              [1]=>
+              string(9) "autoembed"
+            }
+            ["accepted_args"]=>
+            int(1)
+          }
+        }
+        [9]=>
+        array(1) {
+          ["do_blocks"]=>
+          array(2) {
+            ["function"]=>
+            string(9) "do_blocks"
+            ["accepted_args"]=>
+            int(1)
+          }
+        }
+        [10]=>
+        array(6) {
+          ["wptexturize"]=>
+          array(2) {
+            ["function"]=>
+            string(11) "wptexturize"
+            ["accepted_args"]=>
+            int(1)
+          }
+          ["wpautop"]=>
+          array(2) {
+            ["function"]=>
+            string(7) "wpautop"
+            ["accepted_args"]=>
+            int(1)
+          }
+          ["shortcode_unautop"]=>
+          array(2) {
+            ["function"]=>
+            string(17) "shortcode_unautop"
+            ["accepted_args"]=>
+            int(1)
+          }
+          ["prepend_attachment"]=>
+          array(2) {
+            ["function"]=>
+            string(18) "prepend_attachment"
+            ["accepted_args"]=>
+            int(1)
+          }
+          ["wp_make_content_images_responsive"]=>
+          array(2) {
+            ["function"]=>
+            string(33) "wp_make_content_images_responsive"
+            ["accepted_args"]=>
+            int(1)
+          }
+          ["trade_remove_ptag"]=>
+          array(2) {
+            ["function"]=>
+            string(17) "trade_remove_ptag"
+            ["accepted_args"]=>
+            int(1)
+          }
+        }
+        [11]=>
+        array(3) {
+          ["capital_P_dangit"]=>
+          array(2) {
+            ["function"]=>
+            string(16) "capital_P_dangit"
+            ["accepted_args"]=>
+            int(1)
+          }
+          ["do_shortcode"]=>
+          array(2) {
+            ["function"]=>
+            string(12) "do_shortcode"
+            ["accepted_args"]=>
+            int(1)
+          }
+          ["000000005dfa5d500000000024e764b6fixPContent"]=>
+          array(2) {
+            ["function"]=>
+            array(2) {
+              [0]=>
+              object(Vc_Base)#5128 (7) {
+                ["shortcode_edit_form":protected]=>
+                object(Vc_Shortcode_Edit_Form)#5131 (1) {
+                  ["initialized":protected]=>
+                  NULL
+                }
+                ["templates_panel_editor":protected]=>
+                object(Vc_Templates_Panel_Editor)#5129 (3) {
+                  ["option_name":protected]=>
+                  string(16) "wpb_js_templates"
+                  ["default_templates":protected]=>
+                  bool(false)
+                  ["initialized":protected]=>
+                  bool(false)
+                }
+                ["preset_panel_editor":protected]=>
+                object(Vc_Preset_Panel_Editor)#5132 (1) {
+                  ["initialized":protected]=>
+                  bool(false)
+                }
+                ["post_admin":protected]=>
+                bool(false)
+                ["post":protected]=>
+                bool(false)
+                ["shortcodes":protected]=>
+                array(0) {
+                }
+                ["shared_templates"]=>
+                object(Vc_Shared_Templates)#5130 (2) {
+                  ["initialized":protected]=>
+                  bool(false)
+                  ["download_link_url":protected]=>
+                  string(52) "https://support.wpbakery.com/templates/download-link"
+                }
+              }
+              [1]=>
+              string(11) "fixPContent"
+            }
+            ["accepted_args"]=>
+            int(1)
+          }
+        }
+        [20]=>
+        array(1) {
+          ["convert_smilies"]=>
+          array(2) {
+            ["function"]=>
+            string(15) "convert_smilies"
+            ["accepted_args"]=>
+            int(1)
+          }
+        }
+      }
+      ["iterations":"WP_Hook":private]=>
+      array(1) {
+        [0]=>
+        array(5) {
+          [0]=>
+          int(8)
+          [1]=>
+          int(9)
+          [2]=>
+          int(10)
+          [3]=>
+          int(11)
+          [4]=>
+          int(20)
+        }
+      }
+      ["current_priority":"WP_Hook":private]=>
+      array(1) {
+        [0]=>
+        int(11)
+      }
+      ["nesting_level":"WP_Hook":private]=>
+      int(1)
+      ["doing_action":"WP_Hook":private]=>
+      bool(false)
+    }
+    ["type"]=>
+    string(2) "->"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      string(12527) "[vc_row enable_full_screen="yes" css=".vc_custom_1517825895974{padding-top: 20px !important;padding-bottom: 11rem !important;background-color: #ffffff !important;}" el_class="lgx-vc-video lgx-inner-2"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="O KONFERENCJI" sub_title="NOWE OBLICZE ANALITYKI BIZNESOWEJ" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2"][vc_single_image image="1043" img_size="full"][/vc_column_inner][vc_column_inner width="1/2"][lgx_event_about about_page_content="Zapraszamy na najważniejsze spotkanie praktyków analityki biznesowej oraz ekspertów zajmujących się zarządzaniem danymi. Konferencja pomoże nabyć słuchaczom niezbędną wiedzę, umożliwiającą doprowadzenie firmy do doskonałości w zarządzaniu wydajnością organizacji. Podczas spotkania wymienimy doświadczenia dotyczące kierunków rozwoju Business Intelligence. Porozmawiamy o tym jak opracować skuteczne metody BI oraz jakie z nich wdrażać dla poprawy jakości pracy danych. Biorąc udział w wydarzeniu nabędziesz merytoryczną wiedzę, dającą szerokie spojrzenie na rynek oraz najnowsze trendy zarządzania danymi. Poznasz również najlepsze praktyki w tym obszarze. Data Science, Machine Learning, Artifical Intelligence czy Data Lakes, to tylko niektóre hasła, wokół których koncentrować się będzie wydarzenie. Wystąpienia wybitnych prelegentów będą gwarancją kompleksowego omówienia najważniejszych aspektów analityki biznesowej i napotykanych problemów zarządzania danymi z wielu perspektyw." buy_url="https://bankingtech.pl/#rejestracja" buy_text="ZAREJESTRUJ SIĘ" buy_urlr="https://bankingtech.pl/o-wydarzeniu" buy_textr="WIĘCEJ O WYDARZENIU" about_page_id="589"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1100" enable_full_screen="yes" css=".vc_custom_1525260843808{padding-top: 11rem !important;padding-bottom: 11rem !important;background-color: #f1f1f1 !important;}" el_class="lgx-inner-2" el_id="lgx-speakerss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="Prelegenci" sub_title="" icon_name="fa-microphone" color="lgx-heading-brand"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/4"][lgx_speaker id="1670"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1674"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1676"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1678"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_brand_btn text="ZOBACZ WSZYSTKICH" url="https://bankingtech.pl/prelegenci/" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826294220{padding-top: 50px !important;padding-bottom: 11rem !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2017/02/schedule-bg-style-1-1.png?id=390) !important;}" el_class="lgx-inner-2 lgx-schedule-main" el_id="lgx-schedules"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="AGENDA" sub_title="KIERUNKI ROZWOJU ANALITYKI BIZNESOWEJ" icon_name="fa-calendar"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826351301{margin-top: -25px !important;}"][vc_column_inner][lgx_schedule order="ASC" order_by="date"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="354" enable_full_screen="yes" css=".vc_custom_1517826390986{padding-top: 70px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-sponsorss"][vc_column][vc_row_inner css=".vc_custom_1525260879603{margin-bottom: -50px !important;padding-bottom: 0px !important;}"][vc_column_inner][lgx_event_title title="PARTNERZY" sub_title="Liderzy rynku są z nami"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1525260851303{margin-top: -10px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: 10px !important;padding-top: 0px !important;}"][lgx_sponsor title="SPONSORZY" sponsor_images="%5B%7B%22sponsor_image%22%3A%221684%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fnewdatalabs.com%2F%22%7D%2C%7B%22sponsor_image%22%3A%221685%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.signavio.com%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1581972900435{margin-top: 20px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: -50px !important;padding-top: 0px !important;}"][lgx_sponsor title="WSPÓŁPRACA MERYTORYCZNA" sponsor_images="%5B%7B%22sponsor_image%22%3A%221694%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ficm.edu.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221693%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fit-consulting.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221692%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dotlaw.co%2F%22%7D%2C%7B%22sponsor_image%22%3A%221691%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.ey.com%2Fpl_pl%22%7D%5D"][lgx_sponsor title="PATRONI MEDIALNI" sponsor_images="%5B%7B%22sponsor_image%22%3A%221541%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Femployear.com%22%7D%2C%7B%22sponsor_image%22%3A%221554%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgu.com.pl%22%7D%2C%7B%22sponsor_image%22%3A%221555%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dlp-expert.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221556%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgazeta-msp.pl%22%7D%2C%7B%22sponsor_image%22%3A%221557%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbiznes2biznes.com%22%7D%2C%7B%22sponsor_image%22%3A%221558%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.karierawfinansach.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221559%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmojebankowanie.pl%22%7D%2C%7B%22sponsor_image%22%3A%221564%22%2C%22sponsor_url%22%3A%22javascript%3Avoid(0)%22%7D%2C%7B%22sponsor_image%22%3A%221565%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbeinsured.pl%22%7D%2C%7B%22sponsor_image%22%3A%221566%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmbrokers.pl%22%7D%2C%7B%22sponsor_image%22%3A%221657%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ffintek.pl%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1490979341962{margin-top: 1.6rem !important;}"][vc_column_inner][lgx_brand_btn text="ZOSTAŃ SPONSOREM" url="https://bankingtech.pl/zostan-sponsorem" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826413123{padding-top: 50px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-travelinfos"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="WEŹ UDZIAŁ W SPOTKANIU JEŚLI" sub_title="" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826445484{margin-top: -50px !important;}"][vc_column_inner width="1/2"][vc_column_text el_class="claska"]
+<ul>
+<li>Wydarzenia, w których dotychczas brałeś udział, nie wniosły nic nowego do Twojej codzienności zarządzania i analizy danych</li>
+<li>Chcesz na nowo zdefiniować takie zagadnienia jak: Performance Management, Data Lakes, Artifical Intelligence</li>
+<li>Zamierzasz podjąć wyzwanie i wziąć udział w pełnym wiedzy oraz wartościowym merytorycznie dniu</li>
+</ul>
+[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text el_class="claska"]
+<ul>
+<li>Chcesz rozwiązać swój case na żywo i uzyskać rekomendacje największych ekspertów w obszarze analityki biznesowych danych</li>
+<li>Chcesz wziąć udział w niepowtarzalnej dyskusji o poprawie wydajności organizacji</li>
+<li>Chcesz spotkać osoby ze swojego środowiska, wymienić się doświadczeniami i pozyskać cenne kontakty biznesowe</li>
+</ul>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space][lgx_brand_btn text="ZOBACZ RELACJĘ Z POPRZEDNIEJ EDYCJI WYDARZENIA" url="https://bankingtech.pl/fotorelacja/"][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1079" section_id="REJESTRACJA" fullwidth="no" bg_image_custom="121" css=".vc_custom_1517221439711{margin-top: 0px !important;margin-bottom: 0px !important;border-top-width: 0px !important;border-bottom-width: 0px !important;padding-top: 30px !important;padding-bottom: 30px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2018/01/pod-rejestracje-opcja-1-3.jpg?id=930) !important;background-position: center;background-repeat: no-repeat;background-size:cover;}" el_id="rejestracja" parallax_bg="1" stellar_background_ratio="0.2" el_class="rejka"][vc_column][lgx_event_title title="REJESTRACJA / chcę tam być" sub_title="" icon_name="fa-ticket" color="lgx-heading-brand"][vc_column_text css=".vc_custom_1521653821459{margin-top: -80px !important;}"]
+<p style="text-align: center;"><span style="color: #ffffff;">Chcesz być na bieżąco ze wszystkim, najważniejszymi aspektami informatyzacji bankowości?</span><br />
+<span style="color: #ffffff;">Weź bezpłatny udział w konferencji i bądź na bieżąco!</span>[/vc_column_text][vc_column_text][xyz-ips snippet="rejestracjanowa"][/vc_column_text][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1491538882144{padding-top: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-gallerys"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="GALERIA" sub_title="" icon_name="fa-picture-o"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_photo_gallery number="-1"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826664032{padding-top: 60px !important;padding-bottom: 11rem !important;background-color: #f9f9f9 !important;}" el_class="lgx-inner-2" el_id="lgx-newss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="DO UDZIAŁU ZAPRASZAMY" sub_title="" icon_name="fa-newspaper-o"][vc_column_text el_class="listasazk"]
+<p style="text-align: center;"><span class="obaza">• Prezesów i Członków Zarządu,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów Generalnych i Zarządzających,</span></p>
+<p style="text-align: center;"><span class="obaza">• CIO, Dyrektorów, Kierowników oraz Managerów działów informatycznych oraz technologii,</span></p>
+<p style="text-align: center;"><span class="obaza">• Liderów oraz Managerów Business Intelligence,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów zarządzania wydajnością,</span></p>
+<p style="text-align: center;"><span class="obaza">• Kierowników projektów,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów ds. strategii i rozwoju,</span></p>
+<p style="text-align: center;"><span class="obaza">• Reprezentantów departamentu Business Development,</span></p>
+<p style="text-align: center;"><span class="obaza">• Managerów i administratorów hurtowni danych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Analityków biznesowych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów, Kierowników i Managerów ds. operacyjnych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów finansowych</span></p>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1493142534872{padding-top: 11rem !important;padding-bottom: 6.8rem !important;}" el_class="lgx-inner-2" el_id="lgx-testimonialss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="OPINIE" sub_title="" icon_name="fa-quote-left"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_testimonial limit="5"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1583930857404{padding-top: 200px !important;padding-right: 0px !important;padding-bottom: 200px !important;padding-left: 0px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2020/03/jjjhha.jpg?id=1585) !important;}" el_class="lgx-vc-map" el_id="lokalizacja"][vc_column][/vc_column][/vc_row][vc_row css=".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"][vc_column][/vc_column][/vc_row]
+"
+      [1]=>
+      array(1) {
+        [0]=>
+        string(12527) "[vc_row enable_full_screen="yes" css=".vc_custom_1517825895974{padding-top: 20px !important;padding-bottom: 11rem !important;background-color: #ffffff !important;}" el_class="lgx-vc-video lgx-inner-2"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="O KONFERENCJI" sub_title="NOWE OBLICZE ANALITYKI BIZNESOWEJ" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2"][vc_single_image image="1043" img_size="full"][/vc_column_inner][vc_column_inner width="1/2"][lgx_event_about about_page_content="Zapraszamy na najważniejsze spotkanie praktyków analityki biznesowej oraz ekspertów zajmujących się zarządzaniem danymi. Konferencja pomoże nabyć słuchaczom niezbędną wiedzę, umożliwiającą doprowadzenie firmy do doskonałości w zarządzaniu wydajnością organizacji. Podczas spotkania wymienimy doświadczenia dotyczące kierunków rozwoju Business Intelligence. Porozmawiamy o tym jak opracować skuteczne metody BI oraz jakie z nich wdrażać dla poprawy jakości pracy danych. Biorąc udział w wydarzeniu nabędziesz merytoryczną wiedzę, dającą szerokie spojrzenie na rynek oraz najnowsze trendy zarządzania danymi. Poznasz również najlepsze praktyki w tym obszarze. Data Science, Machine Learning, Artifical Intelligence czy Data Lakes, to tylko niektóre hasła, wokół których koncentrować się będzie wydarzenie. Wystąpienia wybitnych prelegentów będą gwarancją kompleksowego omówienia najważniejszych aspektów analityki biznesowej i napotykanych problemów zarządzania danymi z wielu perspektyw." buy_url="https://bankingtech.pl/#rejestracja" buy_text="ZAREJESTRUJ SIĘ" buy_urlr="https://bankingtech.pl/o-wydarzeniu" buy_textr="WIĘCEJ O WYDARZENIU" about_page_id="589"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1100" enable_full_screen="yes" css=".vc_custom_1525260843808{padding-top: 11rem !important;padding-bottom: 11rem !important;background-color: #f1f1f1 !important;}" el_class="lgx-inner-2" el_id="lgx-speakerss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="Prelegenci" sub_title="" icon_name="fa-microphone" color="lgx-heading-brand"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/4"][lgx_speaker id="1670"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1674"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1676"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1678"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_brand_btn text="ZOBACZ WSZYSTKICH" url="https://bankingtech.pl/prelegenci/" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826294220{padding-top: 50px !important;padding-bottom: 11rem !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2017/02/schedule-bg-style-1-1.png?id=390) !important;}" el_class="lgx-inner-2 lgx-schedule-main" el_id="lgx-schedules"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="AGENDA" sub_title="KIERUNKI ROZWOJU ANALITYKI BIZNESOWEJ" icon_name="fa-calendar"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826351301{margin-top: -25px !important;}"][vc_column_inner][lgx_schedule order="ASC" order_by="date"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="354" enable_full_screen="yes" css=".vc_custom_1517826390986{padding-top: 70px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-sponsorss"][vc_column][vc_row_inner css=".vc_custom_1525260879603{margin-bottom: -50px !important;padding-bottom: 0px !important;}"][vc_column_inner][lgx_event_title title="PARTNERZY" sub_title="Liderzy rynku są z nami"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1525260851303{margin-top: -10px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: 10px !important;padding-top: 0px !important;}"][lgx_sponsor title="SPONSORZY" sponsor_images="%5B%7B%22sponsor_image%22%3A%221684%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fnewdatalabs.com%2F%22%7D%2C%7B%22sponsor_image%22%3A%221685%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.signavio.com%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1581972900435{margin-top: 20px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: -50px !important;padding-top: 0px !important;}"][lgx_sponsor title="WSPÓŁPRACA MERYTORYCZNA" sponsor_images="%5B%7B%22sponsor_image%22%3A%221694%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ficm.edu.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221693%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fit-consulting.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221692%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dotlaw.co%2F%22%7D%2C%7B%22sponsor_image%22%3A%221691%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.ey.com%2Fpl_pl%22%7D%5D"][lgx_sponsor title="PATRONI MEDIALNI" sponsor_images="%5B%7B%22sponsor_image%22%3A%221541%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Femployear.com%22%7D%2C%7B%22sponsor_image%22%3A%221554%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgu.com.pl%22%7D%2C%7B%22sponsor_image%22%3A%221555%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dlp-expert.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221556%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgazeta-msp.pl%22%7D%2C%7B%22sponsor_image%22%3A%221557%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbiznes2biznes.com%22%7D%2C%7B%22sponsor_image%22%3A%221558%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.karierawfinansach.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221559%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmojebankowanie.pl%22%7D%2C%7B%22sponsor_image%22%3A%221564%22%2C%22sponsor_url%22%3A%22javascript%3Avoid(0)%22%7D%2C%7B%22sponsor_image%22%3A%221565%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbeinsured.pl%22%7D%2C%7B%22sponsor_image%22%3A%221566%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmbrokers.pl%22%7D%2C%7B%22sponsor_image%22%3A%221657%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ffintek.pl%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1490979341962{margin-top: 1.6rem !important;}"][vc_column_inner][lgx_brand_btn text="ZOSTAŃ SPONSOREM" url="https://bankingtech.pl/zostan-sponsorem" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826413123{padding-top: 50px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-travelinfos"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="WEŹ UDZIAŁ W SPOTKANIU JEŚLI" sub_title="" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826445484{margin-top: -50px !important;}"][vc_column_inner width="1/2"][vc_column_text el_class="claska"]
+<ul>
+<li>Wydarzenia, w których dotychczas brałeś udział, nie wniosły nic nowego do Twojej codzienności zarządzania i analizy danych</li>
+<li>Chcesz na nowo zdefiniować takie zagadnienia jak: Performance Management, Data Lakes, Artifical Intelligence</li>
+<li>Zamierzasz podjąć wyzwanie i wziąć udział w pełnym wiedzy oraz wartościowym merytorycznie dniu</li>
+</ul>
+[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text el_class="claska"]
+<ul>
+<li>Chcesz rozwiązać swój case na żywo i uzyskać rekomendacje największych ekspertów w obszarze analityki biznesowych danych</li>
+<li>Chcesz wziąć udział w niepowtarzalnej dyskusji o poprawie wydajności organizacji</li>
+<li>Chcesz spotkać osoby ze swojego środowiska, wymienić się doświadczeniami i pozyskać cenne kontakty biznesowe</li>
+</ul>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space][lgx_brand_btn text="ZOBACZ RELACJĘ Z POPRZEDNIEJ EDYCJI WYDARZENIA" url="https://bankingtech.pl/fotorelacja/"][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1079" section_id="REJESTRACJA" fullwidth="no" bg_image_custom="121" css=".vc_custom_1517221439711{margin-top: 0px !important;margin-bottom: 0px !important;border-top-width: 0px !important;border-bottom-width: 0px !important;padding-top: 30px !important;padding-bottom: 30px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2018/01/pod-rejestracje-opcja-1-3.jpg?id=930) !important;background-position: center;background-repeat: no-repeat;background-size:cover;}" el_id="rejestracja" parallax_bg="1" stellar_background_ratio="0.2" el_class="rejka"][vc_column][lgx_event_title title="REJESTRACJA / chcę tam być" sub_title="" icon_name="fa-ticket" color="lgx-heading-brand"][vc_column_text css=".vc_custom_1521653821459{margin-top: -80px !important;}"]
+<p style="text-align: center;"><span style="color: #ffffff;">Chcesz być na bieżąco ze wszystkim, najważniejszymi aspektami informatyzacji bankowości?</span><br />
+<span style="color: #ffffff;">Weź bezpłatny udział w konferencji i bądź na bieżąco!</span>[/vc_column_text][vc_column_text][xyz-ips snippet="rejestracjanowa"][/vc_column_text][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1491538882144{padding-top: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-gallerys"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="GALERIA" sub_title="" icon_name="fa-picture-o"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_photo_gallery number="-1"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826664032{padding-top: 60px !important;padding-bottom: 11rem !important;background-color: #f9f9f9 !important;}" el_class="lgx-inner-2" el_id="lgx-newss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="DO UDZIAŁU ZAPRASZAMY" sub_title="" icon_name="fa-newspaper-o"][vc_column_text el_class="listasazk"]
+<p style="text-align: center;"><span class="obaza">• Prezesów i Członków Zarządu,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów Generalnych i Zarządzających,</span></p>
+<p style="text-align: center;"><span class="obaza">• CIO, Dyrektorów, Kierowników oraz Managerów działów informatycznych oraz technologii,</span></p>
+<p style="text-align: center;"><span class="obaza">• Liderów oraz Managerów Business Intelligence,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów zarządzania wydajnością,</span></p>
+<p style="text-align: center;"><span class="obaza">• Kierowników projektów,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów ds. strategii i rozwoju,</span></p>
+<p style="text-align: center;"><span class="obaza">• Reprezentantów departamentu Business Development,</span></p>
+<p style="text-align: center;"><span class="obaza">• Managerów i administratorów hurtowni danych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Analityków biznesowych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów, Kierowników i Managerów ds. operacyjnych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów finansowych</span></p>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1493142534872{padding-top: 11rem !important;padding-bottom: 6.8rem !important;}" el_class="lgx-inner-2" el_id="lgx-testimonialss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="OPINIE" sub_title="" icon_name="fa-quote-left"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_testimonial limit="5"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1583930857404{padding-top: 200px !important;padding-right: 0px !important;padding-bottom: 200px !important;padding-left: 0px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2020/03/jjjhha.jpg?id=1585) !important;}" el_class="lgx-vc-map" el_id="lokalizacja"][vc_column][/vc_column][/vc_row][vc_row css=".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"][vc_column][/vc_column][/vc_row]
+"
+      }
+    }
+  }
+  [9]=>
+  array(4) {
+    ["file"]=>
+    string(72) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/post-template.php"
+    ["line"]=>
+    int(253)
+    ["function"]=>
+    string(13) "apply_filters"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      string(11) "the_content"
+      [1]=>
+      string(12559) "<p>[vc_row enable_full_screen="yes" css=".vc_custom_1517825895974{padding-top: 20px !important;padding-bottom: 11rem !important;background-color: #ffffff !important;}" el_class="lgx-vc-video lgx-inner-2"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="O KONFERENCJI" sub_title="NOWE OBLICZE ANALITYKI BIZNESOWEJ" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2"][vc_single_image image="1043" img_size="full"][/vc_column_inner][vc_column_inner width="1/2"][lgx_event_about about_page_content="Zapraszamy na najważniejsze spotkanie praktyków analityki biznesowej oraz ekspertów zajmujących się zarządzaniem danymi. Konferencja pomoże nabyć słuchaczom niezbędną wiedzę, umożliwiającą doprowadzenie firmy do doskonałości w zarządzaniu wydajnością organizacji. Podczas spotkania wymienimy doświadczenia dotyczące kierunków rozwoju Business Intelligence. Porozmawiamy o tym jak opracować skuteczne metody BI oraz jakie z nich wdrażać dla poprawy jakości pracy danych. Biorąc udział w wydarzeniu nabędziesz merytoryczną wiedzę, dającą szerokie spojrzenie na rynek oraz najnowsze trendy zarządzania danymi. Poznasz również najlepsze praktyki w tym obszarze. Data Science, Machine Learning, Artifical Intelligence czy Data Lakes, to tylko niektóre hasła, wokół których koncentrować się będzie wydarzenie. Wystąpienia wybitnych prelegentów będą gwarancją kompleksowego omówienia najważniejszych aspektów analityki biznesowej i napotykanych problemów zarządzania danymi z wielu perspektyw." buy_url="https://bankingtech.pl/#rejestracja" buy_text="ZAREJESTRUJ SIĘ" buy_urlr="https://bankingtech.pl/o-wydarzeniu" buy_textr="WIĘCEJ O WYDARZENIU" about_page_id="589"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1100" enable_full_screen="yes" css=".vc_custom_1525260843808{padding-top: 11rem !important;padding-bottom: 11rem !important;background-color: #f1f1f1 !important;}" el_class="lgx-inner-2" el_id="lgx-speakerss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="Prelegenci" sub_title="" icon_name="fa-microphone" color="lgx-heading-brand"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/4"][lgx_speaker id="1670"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1674"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1676"][/vc_column_inner][vc_column_inner width="1/4"][lgx_speaker id="1678"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_brand_btn text="ZOBACZ WSZYSTKICH" url="https://bankingtech.pl/prelegenci/" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826294220{padding-top: 50px !important;padding-bottom: 11rem !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2017/02/schedule-bg-style-1-1.png?id=390) !important;}" el_class="lgx-inner-2 lgx-schedule-main" el_id="lgx-schedules"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="AGENDA" sub_title="KIERUNKI ROZWOJU ANALITYKI BIZNESOWEJ" icon_name="fa-calendar"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826351301{margin-top: -25px !important;}"][vc_column_inner][lgx_schedule order="ASC" order_by="date"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="354" enable_full_screen="yes" css=".vc_custom_1517826390986{padding-top: 70px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-sponsorss"][vc_column][vc_row_inner css=".vc_custom_1525260879603{margin-bottom: -50px !important;padding-bottom: 0px !important;}"][vc_column_inner][lgx_event_title title="PARTNERZY" sub_title="Liderzy rynku są z nami"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1525260851303{margin-top: -10px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: 10px !important;padding-top: 0px !important;}"][lgx_sponsor title="SPONSORZY" sponsor_images="%5B%7B%22sponsor_image%22%3A%221684%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fnewdatalabs.com%2F%22%7D%2C%7B%22sponsor_image%22%3A%221685%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.signavio.com%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1581972900435{margin-top: 20px !important;padding-top: 0px !important;}"][vc_column_inner css=".vc_custom_1525260905472{margin-top: -50px !important;padding-top: 0px !important;}"][lgx_sponsor title="WSPÓŁPRACA MERYTORYCZNA" sponsor_images="%5B%7B%22sponsor_image%22%3A%221694%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ficm.edu.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221693%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fit-consulting.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221692%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dotlaw.co%2F%22%7D%2C%7B%22sponsor_image%22%3A%221691%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.ey.com%2Fpl_pl%22%7D%5D"][lgx_sponsor title="PATRONI MEDIALNI" sponsor_images="%5B%7B%22sponsor_image%22%3A%221541%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Femployear.com%22%7D%2C%7B%22sponsor_image%22%3A%221554%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgu.com.pl%22%7D%2C%7B%22sponsor_image%22%3A%221555%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.dlp-expert.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221556%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fgazeta-msp.pl%22%7D%2C%7B%22sponsor_image%22%3A%221557%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbiznes2biznes.com%22%7D%2C%7B%22sponsor_image%22%3A%221558%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Fwww.karierawfinansach.pl%2F%22%7D%2C%7B%22sponsor_image%22%3A%221559%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmojebankowanie.pl%22%7D%2C%7B%22sponsor_image%22%3A%221564%22%2C%22sponsor_url%22%3A%22javascript%3Avoid(0)%22%7D%2C%7B%22sponsor_image%22%3A%221565%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fbeinsured.pl%22%7D%2C%7B%22sponsor_image%22%3A%221566%22%2C%22sponsor_url%22%3A%22http%3A%2F%2Fmbrokers.pl%22%7D%2C%7B%22sponsor_image%22%3A%221657%22%2C%22sponsor_url%22%3A%22https%3A%2F%2Ffintek.pl%2F%22%7D%5D"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1490979341962{margin-top: 1.6rem !important;}"][vc_column_inner][lgx_brand_btn text="ZOSTAŃ SPONSOREM" url="https://bankingtech.pl/zostan-sponsorem" type="lgx-btn-big" target="_self"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826413123{padding-top: 50px !important;padding-bottom: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-travelinfos"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="WEŹ UDZIAŁ W SPOTKANIU JEŚLI" sub_title="" icon_name="fa-info-circle"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1517826445484{margin-top: -50px !important;}"][vc_column_inner width="1/2"][vc_column_text el_class="claska"]</p>
+<ul>
+<li>Wydarzenia, w których dotychczas brałeś udział, nie wniosły nic nowego do Twojej codzienności zarządzania i analizy danych</li>
+<li>Chcesz na nowo zdefiniować takie zagadnienia jak: Performance Management, Data Lakes, Artifical Intelligence</li>
+<li>Zamierzasz podjąć wyzwanie i wziąć udział w pełnym wiedzy oraz wartościowym merytorycznie dniu</li>
+</ul>
+<p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text el_class="claska"]</p>
+<ul>
+<li>Chcesz rozwiązać swój case na żywo i uzyskać rekomendacje największych ekspertów w obszarze analityki biznesowych danych</li>
+<li>Chcesz wziąć udział w niepowtarzalnej dyskusji o poprawie wydajności organizacji</li>
+<li>Chcesz spotkać osoby ze swojego środowiska, wymienić się doświadczeniami i pozyskać cenne kontakty biznesowe</li>
+</ul>
+<p>[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space][lgx_brand_btn text="ZOBACZ RELACJĘ Z POPRZEDNIEJ EDYCJI WYDARZENIA" url="https://bankingtech.pl/fotorelacja/"][/vc_column][/vc_row][vc_row parallax="content-moving" parallax_image="1079" section_id="REJESTRACJA" fullwidth="no" bg_image_custom="121" css=".vc_custom_1517221439711{margin-top: 0px !important;margin-bottom: 0px !important;border-top-width: 0px !important;border-bottom-width: 0px !important;padding-top: 30px !important;padding-bottom: 30px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2018/01/pod-rejestracje-opcja-1-3.jpg?id=930) !important;background-position: center;background-repeat: no-repeat;background-size:cover;}" el_id="rejestracja" parallax_bg="1" stellar_background_ratio="0.2" el_class="rejka"][vc_column][lgx_event_title title="REJESTRACJA / chcę tam być" sub_title="" icon_name="fa-ticket" color="lgx-heading-brand"][vc_column_text css=".vc_custom_1521653821459{margin-top: -80px !important;}"]</p>
+<p style="text-align: center;"><span style="color: #ffffff;">Chcesz być na bieżąco ze wszystkim, najważniejszymi aspektami informatyzacji bankowości?</span><br />
+<span style="color: #ffffff;">Weź bezpłatny udział w konferencji i bądź na bieżąco!</span>[/vc_column_text][vc_column_text][xyz-ips snippet="rejestracjanowa"][/vc_column_text][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1491538882144{padding-top: 11rem !important;}" el_class="lgx-inner-2" el_id="lgx-gallerys"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="GALERIA" sub_title="" icon_name="fa-picture-o"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_photo_gallery number="-1"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1517826664032{padding-top: 60px !important;padding-bottom: 11rem !important;background-color: #f9f9f9 !important;}" el_class="lgx-inner-2" el_id="lgx-newss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="DO UDZIAŁU ZAPRASZAMY" sub_title="" icon_name="fa-newspaper-o"][vc_column_text el_class="listasazk"]</p>
+<p style="text-align: center;"><span class="obaza">• Prezesów i Członków Zarządu,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów Generalnych i Zarządzających,</span></p>
+<p style="text-align: center;"><span class="obaza">• CIO, Dyrektorów, Kierowników oraz Managerów działów informatycznych oraz technologii,</span></p>
+<p style="text-align: center;"><span class="obaza">• Liderów oraz Managerów Business Intelligence,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów zarządzania wydajnością,</span></p>
+<p style="text-align: center;"><span class="obaza">• Kierowników projektów,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów ds. strategii i rozwoju,</span></p>
+<p style="text-align: center;"><span class="obaza">• Reprezentantów departamentu Business Development,</span></p>
+<p style="text-align: center;"><span class="obaza">• Managerów i administratorów hurtowni danych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Analityków biznesowych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów, Kierowników i Managerów ds. operacyjnych,</span></p>
+<p style="text-align: center;"><span class="obaza">• Dyrektorów finansowych</span></p>
+<p>[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row enable_full_screen="yes" css=".vc_custom_1493142534872{padding-top: 11rem !important;padding-bottom: 6.8rem !important;}" el_class="lgx-inner-2" el_id="lgx-testimonialss"][vc_column][vc_row_inner][vc_column_inner][lgx_event_title title="OPINIE" sub_title="" icon_name="fa-quote-left"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][lgx_testimonial limit="5"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1583930857404{padding-top: 200px !important;padding-right: 0px !important;padding-bottom: 200px !important;padding-left: 0px !important;background-image: url(https://bankingtech.pl/wp-content/uploads/2020/03/jjjhha.jpg?id=1585) !important;}" el_class="lgx-vc-map" el_id="lokalizacja"][vc_column][/vc_column][/vc_row][vc_row css=".vc_custom_1515744598359{padding-top: 18px !important;background-color: #343d47 !important;}"][vc_column][/vc_column][/vc_row]</p>
+"
+    }
+  }
+  [10]=>
+  array(4) {
+    ["file"]=>
+    string(108) "/home/bitrends/web/bitrends.pl/public_html/wp-content/themes/lgx-event-point/template-parts/content-page.php"
+    ["line"]=>
+    int(15)
+    ["function"]=>
+    string(11) "the_content"
+    ["args"]=>
+    array(0) {
+    }
+  }
+  [11]=>
+  array(4) {
+    ["file"]=>
+    string(67) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/template.php"
+    ["line"]=>
+    int(725)
+    ["args"]=>
+    array(1) {
+      [0]=>
+      string(108) "/home/bitrends/web/bitrends.pl/public_html/wp-content/themes/lgx-event-point/template-parts/content-page.php"
+    }
+    ["function"]=>
+    string(7) "require"
+  }
+  [12]=>
+  array(4) {
+    ["file"]=>
+    string(67) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/template.php"
+    ["line"]=>
+    int(672)
+    ["function"]=>
+    string(13) "load_template"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      string(108) "/home/bitrends/web/bitrends.pl/public_html/wp-content/themes/lgx-event-point/template-parts/content-page.php"
+      [1]=>
+      bool(false)
+    }
+  }
+  [13]=>
+  array(4) {
+    ["file"]=>
+    string(75) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/general-template.php"
+    ["line"]=>
+    int(168)
+    ["function"]=>
+    string(15) "locate_template"
+    ["args"]=>
+    array(3) {
+      [0]=>
+      array(2) {
+        [0]=>
+        string(31) "template-parts/content-page.php"
+        [1]=>
+        string(26) "template-parts/content.php"
+      }
+      [1]=>
+      bool(true)
+      [2]=>
+      bool(false)
+    }
+  }
+  [14]=>
+  array(4) {
+    ["file"]=>
+    string(111) "/home/bitrends/web/bitrends.pl/public_html/wp-content/themes/lgx-event-point/template-parts/page-fullscreen.php"
+    ["line"]=>
+    int(21)
+    ["function"]=>
+    string(17) "get_template_part"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      string(22) "template-parts/content"
+      [1]=>
+      string(4) "page"
+    }
+  }
+  [15]=>
+  array(4) {
+    ["file"]=>
+    string(74) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/template-loader.php"
+    ["line"]=>
+    int(106)
+    ["args"]=>
+    array(1) {
+      [0]=>
+      string(111) "/home/bitrends/web/bitrends.pl/public_html/wp-content/themes/lgx-event-point/template-parts/page-fullscreen.php"
+    }
+    ["function"]=>
+    string(7) "include"
+  }
+  [16]=>
+  array(4) {
+    ["file"]=>
+    string(61) "/home/bitrends/web/bitrends.pl/public_html/wp-blog-header.php"
+    ["line"]=>
+    int(19)
+    ["args"]=>
+    array(1) {
+      [0]=>
+      string(74) "/home/bitrends/web/bitrends.pl/public_html/wp-includes/template-loader.php"
+    }
+    ["function"]=>
+    string(12) "require_once"
+  }
+  [17]=>
+  array(4) {
+    ["file"]=>
+    string(52) "/home/bitrends/web/bitrends.pl/public_html/index.php"
+    ["line"]=>
+    int(18)
+    ["args"]=>
+    array(1) {
+      [0]=>
+      string(61) "/home/bitrends/web/bitrends.pl/public_html/wp-blog-header.php"
+    }
+    ["function"]=>
+    string(7) "require"
+  }
+}

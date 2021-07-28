@@ -1,0 +1,46 @@
+.wpcf7-form{
+    width:750px;
+    margin:auto;
+}
+
+
+#news{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+    width: min-content;
+    white-space: nowrap;
+    margin: auto;
+}
+
+.wpcf7-form-control.wpcf7-submit{
+    width: 179px;
+    margin: auto;
+    display: block;
+    
+}
+
+.lgx-about-text .text{
+    text-align:justify;
+}
+
+.menu-item-933 span{
+    color:#901f79 !important;
+}
+
+
+
+.lgx-heading-brand .heading{
+    font-size:2.2rem;
+}
+
+.vc_custom_1521653821459{
+    display:none;
+}
+
+.lgx-heading .heading{
+    font-size:3.2rem !important;
+}
+#news{
+    color:black;
+}
