@@ -74,6 +74,11 @@ define('DB_COLLATE', '');
 	define('NONCE_SALT',       '|20gDP6%wV(Zy[ywn^lTvmqS@R0ZJ9kyK+l_9DB9PmU+KF?gQ{.bZ0fMw5+}w.R[');
 
 
+
+	define('WP_HOME', 'https://eduittrends.pl/');
+
+	define('WP_SITEURL', 'https://eduittrends.pl/');
+
 /**#@-*/
 
 /**
