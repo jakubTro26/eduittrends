@@ -39,7 +39,7 @@ define('DB_NAME', "eduittrends_db");
 /** MySQL database username */
 define('DB_USER', "eduittrends_user");
 
-
+define('WP_ALLOW_REPAIR', true);
 /** MySQL database password */
 define('DB_PASSWORD', "1bSVUeTlpc");
 
