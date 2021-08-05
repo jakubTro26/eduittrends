@@ -754,7 +754,7 @@ button {
   animation-timing-function: linear;
 }
 .lgx-header .lgx-navbar .lgx-logo a img {
-  max-width: 190px;
+  max-width: 315px;
   margin-top: -5px;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
