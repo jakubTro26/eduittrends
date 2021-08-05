@@ -7,7 +7,7 @@ class LgxFrameworkOpt{
         if((isset($lgx_event_point['logo-up']['url'])) && !empty($lgx_event_point['logo-up']['url'])){
             return $lgx_event_point['logo-up']['url'];
         }else{
-            return get_template_directory_uri()."/assets/img/logo2.png";
+            return get_template_directory_uri()."/assets/img/logo10.png";
         }  
     } 
  
