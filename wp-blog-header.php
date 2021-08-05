@@ -13,6 +13,7 @@ if ( ! isset( $wp_did_header ) ) {
 	require_once __DIR__ . '/wp-load.php';
 
 	// Set up the WordPress query.
+	echo 'redirecting';
 	wp();
 
 	// Load the theme template.
