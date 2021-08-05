@@ -65,7 +65,7 @@ $lgx_event_point_ft_col = $lgx_event_point_opt->lgx_event_point_footer_col();
                     <?php if(!empty($lgx_event_point_ft_logo)): ?>
                         <div class="lgx-logo f">
                             <a href="<?php echo esc_url(home_url('/')); ?>" class="lgx-scroll">
-                                <img src="<?php echo esc_url('https://bitrends.pl/wp-content/themes/lgx-event-point/assets/img/logo3.png'); ?>" alt="Event Point"/>
+                                <img src="<?php echo esc_url('https://bitrends.pl/wp-content/themes/lgx-event-point/assets/img/logofooter.png'); ?>" alt="Event Point"/>
                             </a>
                         </div>
                     <?php endif; ?>
