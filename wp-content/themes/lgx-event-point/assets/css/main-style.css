@@ -849,7 +849,7 @@ button {
   margin-top: .9rem;
 }
 .menu-onscroll .lgx-navbar .lgx-logo a img {
-  max-width: 170px;
+  max-width: 315px;
   margin-top: 0;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
